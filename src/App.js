@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import AddList from './views/AddList';
-import DeleteForm from './views/DeleteForm';
+import AddList from './pages/AddList';
+import DeleteForm from './pages/DeleteForm';
 
 function App() {
   return (
