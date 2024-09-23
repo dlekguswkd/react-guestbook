@@ -19,16 +19,19 @@ const DeleteForm = () => {
 
     return (
         <>
-            <table>
-                <tr>
-                    <td>비밀번호</td>
-                    <td><input id="" type="password" name="" value="" placeholder="" /></td>
-                    <td><button type="submit">삭제</button></td>
-                </tr>
-            </table>
+            <form action="" method="">
+                <table>
+                    <tr>
+                        <td>비밀번호</td>
+                        <td><input id="" type="password" name="" value="" placeholder="" /></td>
+                        <td><button type="submit">삭제</button></td>
+                    </tr>
+                </table>    
+                {/* <input type="hidden" name="no" value=""/> */}
+            </form>
 
             <br /><br />
-            <Link to="http://localhost:3000/addlist" rel="noreferrer noopener">
+            <Link to="/addlist" rel="noreferrer noopener">
                 메인으로 돌아가기
             </Link>
         </>
